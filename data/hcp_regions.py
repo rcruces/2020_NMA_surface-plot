@@ -26,7 +26,7 @@ class HCPRegions:
     data available for us to make direct comparisons on the same atlas mesh."
     """
 
-    table_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'atlas', 'hcp_parcels.csv')
+    table_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'hcp_parcels.csv')
     table = None
 
     def __init__(self):
@@ -55,7 +55,7 @@ class HCPRegions:
             raise ValueError(f'No region with name or index {region_name_or_index} found.')
         return regions.iloc[0]
 
-    def wtf_is(self, region_name_or_index: 'str/int', verbose=False):
+    def what_is(self, region_name_or_index: 'str/int', verbose=False):
         """
         Prints information about the given region to the console.
         Args:
@@ -65,12 +65,12 @@ class HCPRegions:
 
         region = self.get_entry(region_name_or_index)
         if not verbose:
-            print(f'Region {region["AreaName"]} ({region["ParcelIndex"]})\n' \
+            print(f'Name of ROI {region["AreaName"]} ({region["ParcelIndex"]})\n' \
                 f'Area description: {region["AreaDescription"]}\n' \
                 f'Other names: {region["OtherNames"]}')
         else:
-            print(f'Region {region["AreaName"]}\n' \
-                f'ParcelIndex: {region["ParcelIndex"]}\n' \
+            print(f'Name of ROI {region["AreaName"]}\n' \
+                f'Parcel Index: {region["ParcelIndex"]}\n' \
                 f'Area description: {region["AreaDescription"]}\n' \
                 f'Other names: {region["OtherNames"]}\n' \
                 f'New?: {region["New"]}\n' \
