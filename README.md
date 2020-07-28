@@ -1,11 +1,25 @@
 # NMA Glasser surface plot with BrainSpace.  
 
-## Requiriments  
-`python3`  
+## Requiriments: BrainSpace  
+### Python installation
 [BrainSpace](https://brainspace.readthedocs.io/en/latest/index.html)  
-> `pip install brainspace`
+> `pip install brainspace`. 
+  
+BrainSpace works on `Python 3.5+`, and probably with older versions of Python 3,
+although it is not tested.
 
-## Data  
+**Dependencies**   
+To use BrainSpace, the following Python packages are required:
+
+* [`numpy`](https://numpy.org/)
+* [`scipy`](https://scipy.org/scipylib/index.html)
+* [`scikit-learn`](https://scikit-learn.org/stable/)
+* [`vtk`](https://vtk.org/)
+* [`matplotlib`](https://matplotlib.org/)
+* [`nibabel`](https://nipy.org/nibabel/index.html)
+* [`nilearn`](https://nilearn.github.io/)
+
+## Data   
 Glasser, M., Coalson, T., Robinson, E. et al. A multi-modal parcellation of human cerebral cortex. Nature 536, 171–178 (2016). https://doi.org/10.1038/nature18933  
 BALSA laboratory: https://balsa.wustl.edu/study/show/RVVG    
  
