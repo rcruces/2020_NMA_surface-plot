@@ -1,6 +1,9 @@
 """
 This function was copied from github.com/ansteeg, the original code can be found here:
      https://github.com/ansteeg/NeuroMatchProject
+
+     It was modified in order to use it with surface plot from BrainSpace
+
 """
 
 import os
@@ -76,3 +79,23 @@ class HCPRegions:
                 f'New?: {region["New"]}\n' \
                 f'Sections: {region["Sections"]}\n' \
                 f'Key studies: {region["KeyStudies"]}')
+
+    def index(self, region_name_or_index: 'str/int'):
+        """
+        Retrieve information about the given region as a set of variables.
+
+        Args:
+        region_name_or_index (str or int): the short region name, or its index
+
+        Returns:
+        roi  (str) : Short name of ROI
+        ind  (int) : Parcel index
+        name (str) : Full name of ROI
+        """
+        region = self.get_entry(region_name_or_index)
+
+        roi = region["AreaName"]
+        ind = region["ParcelIndex"]
+        name = region["AreaDescription"]
+
+        return roi, ind, name
