@@ -1,6 +1,7 @@
 # NMA Glasser surface plot with BrainSpace.  
 
-## Requiriments. 
+## Requiriments  
+`python3`  
 [BrainSpace](https://brainspace.readthedocs.io/en/latest/index.html)  
 > `pip install brainspace`
 
