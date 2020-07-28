@@ -12,3 +12,10 @@ BALSA laboratory: https://balsa.wustl.edu/study/show/RVVG
  ## Functions  
 `hcp_parcels.csv` credit to [Ansteeg NMA project](https://github.com/ansteeg/NeuroMatchProject)   
 `hcp_dataset.py` credit to [Ansteeg NMA project](https://github.com/ansteeg/NeuroMatchProject)   
+
+## Notebooks
+
+|   | Run | View |
+| - | --- | ---- |
+| Surface plot with BrainSpace | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_with_BrainSpace.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github.com/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_with_BrainSpace.ipynb?flush_cache=true) |
+| Surface plot with NMA HCP data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_hcp_example.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github.com/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_hcp_example.ipynb?flush_cache=true) |
