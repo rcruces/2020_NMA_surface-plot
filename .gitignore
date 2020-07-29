@@ -1,0 +1,9 @@
+
+*.m~
+
+data/.ipynb_checkpoints/
+data/__pycache__/
+data/hcp/
+data/hcp_covariates.tgz
+data/hcp_rest.tgz
+data/hcp_task.tgz
