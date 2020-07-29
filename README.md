@@ -29,6 +29,7 @@ BALSA laboratory: https://balsa.wustl.edu/study/show/RVVG
 
 ## Notebooks
 
+At the present moment `colab` notebook does not run properly. But the notebooks work fine locally.
 |   | Run | View |
 | - | --- | ---- |
 | Surface plot with BrainSpace | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_with_BrainSpace.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/rcruces/2020_NMA_surface-plot/blob/master/data/tutorial-surface_plot_with_BrainSpace.ipynb?flush_cache=true) |
