@@ -1,5 +1,6 @@
 # NMA Glasser surface plot with BrainSpace  
-  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b0ae12bf07544a7b9cb870267fab24fd)](https://www.codacy.com/gh/rcruces/2020_NMA_surface-plot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rcruces/2020_NMA_surface-plot&amp;utm_campaign=Badge_Grade)
+
 ## Python and BrainSpace installation ##
 [BrainSpace](https://brainspace.readthedocs.io/en/latest/index.html)  
 > `pip install brainspace`. 
