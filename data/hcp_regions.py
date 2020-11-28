@@ -1,4 +1,5 @@
 """
+
 This function was copied from github.com/ansteeg, the original code can be found here:
      https://github.com/ansteeg/NeuroMatchProject
 
@@ -33,7 +34,9 @@ class HCPRegions:
     table = None
 
     def __init__(self):
-        """ Inits the HCPRegions class and loads the table from file. """
+        """
+        Inits the HCPRegions class and loads the table from file.
+        """
         # Load table
         self.table = pd.read_csv(self.table_path, delimiter=',', encoding='utf-8')
 
