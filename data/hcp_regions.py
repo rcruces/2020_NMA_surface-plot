@@ -1,10 +1,8 @@
 
-"""
+"""  
+    This function was copied from github.com/ansteeg, the original code can be found here: https://github.com/ansteeg/NeuroMatchProject
 
-This function was copied from github.com/ansteeg, the original code can be found here:
-     https://github.com/ansteeg/NeuroMatchProject
-
-     It was modified in order to use it with surface plot from BrainSpace
+    It was modified in order to use it with surface plot from BrainSpace
 
 """
 
