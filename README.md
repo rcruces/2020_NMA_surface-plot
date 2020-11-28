@@ -1,6 +1,6 @@
 # NMA Glasser surface plot with BrainSpace  
   
-## Python and BrainSpace installation  
+## Python and BrainSpace installation ## 
 [BrainSpace](https://brainspace.readthedocs.io/en/latest/index.html)  
 > `pip install brainspace`. 
   
@@ -10,23 +10,23 @@ although it is not tested.
 **Dependencies**   
 To use BrainSpace, the following Python packages are required:
 
-* [`numpy`](https://numpy.org/)  
-* [`scipy`](https://scipy.org/scipylib/index.html)  
-* [`scikit-learn`](https://scikit-learn.org/stable/)  
-* [`vtk`](https://vtk.org/)  
-* [`matplotlib`](https://matplotlib.org/)  
-* [`nibabel`](https://nipy.org/nibabel/index.html)  
-* [`nilearn`](https://nilearn.github.io/)  
+*  [`numpy`](https://numpy.org/)  
+*  [`scipy`](https://scipy.org/scipylib/index.html)  
+*  [`scikit-learn`](https://scikit-learn.org/stable/)  
+*  [`vtk`](https://vtk.org/)  
+*  [`matplotlib`](https://matplotlib.org/)  
+*  [`nibabel`](https://nipy.org/nibabel/index.html)  
+*  [`nilearn`](https://nilearn.github.io/)  
 
-## Data  
+## Data ##   
 Glasser, M., Coalson, T., Robinson, E. et al. A multi-modal parcellation of human cerebral cortex. Nature 536, 171–178 (2016). https://doi.org/10.1038/nature18933  
 BALSA laboratory: https://balsa.wustl.edu/study/show/RVVG    
  
- ## Functions  
+ ## Functions ##  
 `hcp_parcels.csv` credit to [Ansteeg NMA project](https://github.com/ansteeg/NeuroMatchProject)   
 `hcp_dataset.py` credit to [Ansteeg NMA project](https://github.com/ansteeg/NeuroMatchProject)   
 
-## Notebooks  
+## Notebooks ##  
 
 At the present moment `colab` notebook does not run properly. But the notebooks work fine locally.
 |   | Run | View |
