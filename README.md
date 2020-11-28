@@ -10,13 +10,13 @@ although it is not tested.
 **Dependencies**   
 To use BrainSpace, the following Python packages are required:
 
-*  [`numpy`](https://numpy.org/)  
-*  [`scipy`](https://scipy.org/scipylib/index.html)  
-*  [`scikit-learn`](https://scikit-learn.org/stable/)  
-*  [`vtk`](https://vtk.org/)  
-*  [`matplotlib`](https://matplotlib.org/)  
-*  [`nibabel`](https://nipy.org/nibabel/index.html)  
-*  [`nilearn`](https://nilearn.github.io/)  
+*   [`numpy`](https://numpy.org/)  
+*   [`scipy`](https://scipy.org/scipylib/index.html)  
+*   [`scikit-learn`](https://scikit-learn.org/stable/)  
+*   [`vtk`](https://vtk.org/)  
+*   [`matplotlib`](https://matplotlib.org/)  
+*   [`nibabel`](https://nipy.org/nibabel/index.html)  
+*   [`nilearn`](https://nilearn.github.io/)  
 
 ## Data ##
 Glasser, M., Coalson, T., Robinson, E. et al. A multi-modal parcellation of human cerebral cortex. Nature 536, 171–178 (2016). https://doi.org/10.1038/nature18933  
