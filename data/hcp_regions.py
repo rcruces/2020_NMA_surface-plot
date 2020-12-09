@@ -3,8 +3,9 @@ import os
 import pandas as pd
 
 class HCPRegions:
-    """  
-    Translates short region names into more information.  
+    
+    """
+    Translates short region names into more information.
 
     Attributes:
         table_path(str): path to the hcp_parcels.csv file
@@ -34,7 +35,7 @@ class HCPRegions:
 
     def get_entry(self, region_name_or_index: 'str/int'):
         """
-        Retrieves the table entry for the given region.  
+        Retrieves the table entry for the given region.
 
         Args:
         region_name_or_index (str or int): the short region name, or its index
@@ -57,7 +58,7 @@ class HCPRegions:
     def what_is(self, region_name_or_index: 'str/int', verbose=False):
         """
         Prints information about the given region to the console.
-        
+
         Args:
         region_name_or_index (str or int): the short region name, or its index
         verbose (bool, default=False): Returns more information if set to true
