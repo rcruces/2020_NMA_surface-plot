@@ -3,8 +3,9 @@ import os
 import pandas as pd
 
 class HCPRegions:
-    
+
     """
+
     Translates short region names into more information.
 
     Attributes:
